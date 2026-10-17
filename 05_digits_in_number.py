@@ -1,6 +1,7 @@
 number = 8769
+n = number
 
-while number > 0:
-  last_digit = number % 10
+while n > 0:
+  last_digit = n % 10
   print(last_digit)
-  number = number// 10
+  n = n// 10
